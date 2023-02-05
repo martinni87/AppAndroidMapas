@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.primera_aplicacion.fragments.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_temp"
+        android:name="com.example.primera_aplicacion.fragments.TempFragment"
+        android:label="@string/menu_temp"
+        tools:layout="@layout/activity_temperatura" />
+
+    <fragment
+        android:id="@+id/nav_conversor"
+        android:name="com.example.primera_aplicacion.fragments.ConversorFragment"
+        android:label="@string/menu_conversor"
+        tools:layout="@layout/activity_conversor" />
+
+    <fragment
+        android:id="@+id/nav_location"
+        android:name="com.example.primera_aplicacion.fragments.MapsFragment2"
+        android:label="@string/menu_location"
+        tools:layout="@layout/fragment_maps2" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.example.primera_aplicacion.fragments.SettingsFragment"
+        android:label="@string/menu_settings"
+        tools:layout="@layout/activity_settings" />
+
+    <fragment
+        android:id="@+id/nav_exit"
+        android:name="com.example.primera_aplicacion.fragments.ExitFragment"
+        android:label="@string/menu_exit"
+        tools:layout="@layout/fragment_exit" />
+</navigation>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="top"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".fragments.ConversorFragment">
+
+    <ImageView
+        android:id="@+id/imgViewInicial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:contentDescription="@string/pic_covid_title"
+        app:srcCompat="@drawable/covid" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="64dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="64dp"
+            android:text="@string/titulo_conversor1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_margin="32dp"
+            android:gravity="center|top"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/et_celsius_value2convert"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:hint="0"
+                android:text=""
+                android:inputType="numberDecimal"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="=" />
+
+            <EditText
+                android:id="@+id/et_celsius_converted2Fahrenheit"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:hint=""
+                android:inputType="none"
+                android:text=""
+                android:textAlignment="center"
+                tools:ignore="Deprecated" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnCalcular1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/txt_btn_calcular" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="64dp"
+            android:text="@string/titulo_conversor2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_margin="32dp"
+            android:gravity="center|top"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/et_fahrenheit_value2convert"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:hint="0"
+                android:text=""
+                android:inputType="numberDecimal"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="=" />
+
+            <EditText
+                android:id="@+id/et_fahrenheit_converted2Celsius"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:hint=""
+                android:inputType="none"
+                android:text=""
+                android:textAlignment="center"
+                tools:ignore="Deprecated" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnCalcular2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/txt_btn_calcular" />
+
+    </LinearLayout>
+
+</LinearLayout>

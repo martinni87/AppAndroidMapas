@@ -1,0 +1,58 @@
+<resources>
+    <!-- General Strings -->
+    <string name="app_name">Radar COVID19</string>
+    <string name="txt_btn_entrar">Entrar</string>
+    <string name="txt_etpassword">Contraseña</string>
+    <string name="txt_etuser">Usuario</string>
+    <string name="pic_covid_title">covid19</string>
+    <string name="txt_btn_cerrar_session">Cerrar sesión</string>
+    <string name="txt_btn_configuracion">Configuración</string>
+    <string name="txt_btn_conversor">Conversor</string>
+    <string name="txt_btn_medicion_temperatura">Medición de temperatura</string>
+    <string name="titulo_medicion_temperatura">Medición de temperatura:</string>
+    <string name="txt_nombre">Nombre</string>
+    <string name="txt_apellidos">Apellidos</string>
+    <string name="txt_temperatura">Temperatura</string>
+    <string name="txt_ciudad">Ciudad</string>
+    <string name="txt_provincia">Provincia</string>
+    <string name="txt_btn_finalizar">Finalizar</string>
+    <string name="txt_switch_celsius">Celsius</string>
+    <string name="txt_switch_fahrenheit">Fahrenheit</string>
+    <string name="titulo_resultado_temperatura">Temperatura:</string>
+    <string name="txt_btn_volverMenu">Volver al inicio</string>
+    <string name="txt_btn_calcular">Calcular</string>
+    <string name="titulo_conversor1">Conversor de Celsius a Fahrenheit</string>
+    <string name="titulo_conversor2">Conversor de Fahrenheit a Celsius</string>
+    <string name="titulo_configuracion">Configuración:</string>
+    <string name="txt_btn_guardar">Guardar</string>
+    <string name="checkbox_text">Recordar usuario</string>
+
+    <!-- Navigation activity Strings-->
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Soporte</string>
+
+    <!-- String references for menubar-->
+    <string name="menu_home">Inicio</string>
+    <string name="menu_temp">Medición de temperatura</string>
+    <string name="menu_conversor">Conversor</string>
+    <string name="menu_location">Localización</string>
+    <string name="menu_settings">Configuración</string>
+    <string name="menu_exit">Cerrar sesión</string>
+    <string name="title_activity_delete">DeleteAct</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_maps">MapsActivity</string>
+
+
+</resources>
